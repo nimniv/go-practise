@@ -1,7 +1,11 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	// Add new module requirements and sums. `go mod tidy`
+	"rsc.io/quote"
+)
 
 func main() {
-    fmt.Println("Hello, World!")
+	fmt.Println(quote.Go())
 }
